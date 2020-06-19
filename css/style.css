@@ -1,0 +1,31 @@
+nav {
+    height: 70px;
+    background-color: #2c3e50;
+
+}
+
+
+header {
+    background-color: #1abc9c;
+}
+
+.row {
+    /* da cancellare */
+
+
+}
+
+[class^="col-"] {
+    height: 100%;
+}
+
+.gallery .col-lg-4 {
+    /* da cancellare */
+    background-color: yellow;
+    border: 1px solid black;
+    height: 100px;
+}
+
+section.about {
+    background-color: #1abc9c;
+}
