@@ -21,7 +21,7 @@ header {
 }
 
 .jumbotron img {
-    height: 300px;
+    height: 240px;
 }
 
 .row {
@@ -35,10 +35,12 @@ header {
 }
 
 .gallery .col-lg-4 {
-    /* da cancellare */
-    background-color: yellow;
-    border: 1px solid black;
-    height: 100px;
+    padding-bottom: 50px;
+}
+
+.gallery .col-lg-4 img {
+    width: 332px;
+    border-radius: 10px;
 }
 
 section.about {
