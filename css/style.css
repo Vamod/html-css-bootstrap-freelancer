@@ -4,11 +4,14 @@ body {
 
 h2 {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 45px;
+    padding-top: 50px;
+    padding-bottom: 10px;
 }
 
 h4 {
     font-size: 23px;
+    font-weight: 700;
 }
 
 nav {
@@ -43,21 +46,50 @@ header {
 }
 
 .jumbotron img {
-    height: 240px;
+    height: 260px;
 }
 
-.jumbotron h1, h4 {
+.jumbotron h1 {
     font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.jumbotron p {
+    padding-top: 30px;
+}
+
+
+
+hr.divider {
+  width: 10%;
+  height: 4px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  border: 0;
+  background-color: white;
+  border-radius: 8px;
+  display: inline-block;
 }
 
 .fa-star {
-    font-size: 25px;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .gallery {
     color: #2c3e50;
 }
 
 .gallery .col-lg-4 {
+    padding-bottom: 30px;
+}
+
+.gallery .divider, .contact_me .divider {
+    background-color: #2c3e50;
+}
+
+.gallery .divider-container, .about .divider-container {
     padding-bottom: 30px;
 }
 
@@ -71,13 +103,37 @@ section.about {
     background-color: #1abc9c;
     color: white;
 }
+.about h2 {
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.about p {
+    font-size: 18px;
+}
+
+.box-bottom {
+    padding-top: 30px;
+    padding-bottom: 90px;
+}
+
+.about button {
+    padding: 18px 24px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
 
 svg.svg-inline--fa {
     width: 15px;
 }
 
-.contact_me h2, .contact_me .divider {
+.contact_me h2, .contact_me .divider, .contact_me .fa-star {
     color: #2c3e50;
+}
+
+.form-group {
+    padding-top: 30px;
 }
 
 .form-control {
