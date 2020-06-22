@@ -14,9 +14,13 @@ h4 {
     font-weight: 700;
 }
 
+
 .boo_navbar {
   background-color: #2c3e50;
   font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
 }
 
 .boo_navbar a.navbar-brand,
@@ -24,6 +28,13 @@ h4 {
   color: white;
 }
 
+a.navbar-brand {
+    font-size: 1.75em;
+}
+
+.boo_navbar .nav li a {
+    font-size: 1.2em;
+}
 
 #banner {
     background-color: #1abc9c;
@@ -48,8 +59,6 @@ h4 {
 .jumbotron p {
     padding-top: 30px;
 }
-
-
 
 hr.divider {
   width: 10%;
