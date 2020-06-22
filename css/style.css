@@ -66,7 +66,7 @@ hr.divider {
     padding-left: 10px;
     padding-right: 10px;
 }
-.gallery {
+section.gallery {
     color: #2c3e50;
 }
 
@@ -82,11 +82,36 @@ hr.divider {
     padding-bottom: 30px;
 }
 
-.gallery .col-lg-4 img {
-    width: 100%;
-    border-radius: 10px;
-
+.boo_portfolio-img {
+  position: relative;
 }
+
+.boo_portfolio-img img {
+     border-radius: 10px;
+}
+
+.boo_portfolio-overlay {
+  display: none;
+}
+
+.boo_portfolio-img:hover .boo_portfolio-overlay {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 187, 156, 0.7);
+  border-radius: 10px;
+}
+
+.boo_portfolio-overlay span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 80px;
+  color: white;
+}
+
 
 section.about {
     background-color: #1abc9c;
@@ -133,13 +158,15 @@ section.contact_me {
     border: none;
     border-radius: 0;
     border-bottom: 1px solid #e9ecef;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 50px;
     box-shadow: none;
+    font-size: 18px;
 }
 
 #boo_form-button {
     background-color: #1abc9c;
+    border-color: #1abc9c;
     padding: 18px 24px;
 }
 
@@ -148,7 +175,37 @@ footer {
     color: white;
 }
 
+.boo_footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.boo_footer h4 {
+    padding-bottom: 10px;
+}
+
+.boo_footer p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.boo_footer a i {
+    font-size: 40px;
+    color: white;
+}
+
+.fa-facebook,
+.fa-google-plus,
+.fa-twitter {
+    padding-right: 21px;
+}
+
 .copyright {
     background-color: #1a252f;
     color: white;
+}
+
+.copyright .small {
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
